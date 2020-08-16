@@ -14,6 +14,9 @@ button{
   font-weight:500;
 }
 button:hover{
-  background-color: teal;
+  background-color: gold;
+  color:black;
+  border-color:black;
+  transition: 0.3s;
   cursor:pointer;
 }
