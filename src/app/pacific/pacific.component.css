@@ -1,0 +1,10 @@
+.draw{
+  border:5px solid black;
+ background-color:  thistle;
+ font-family: none;
+ font-style: italic;
+  text-align:center;
+  color:darkblue;
+  margin:20px;
+  padding:20px;
+}
