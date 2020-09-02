@@ -37,7 +37,6 @@ pacificMealsPrice=[
 bookAtlanticMealsPrice(price){
   this.router.navigate(['atlantic/:id',price],{relativeTo:this.activateroute})
 }
-
 bookPacificMealsPrice(price){
   this.router.navigate(['pacific/:id',price],{relativeTo:this.activateroute})
 }

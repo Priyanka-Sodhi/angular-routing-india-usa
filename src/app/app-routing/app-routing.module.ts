@@ -33,11 +33,11 @@ const routes: Routes = [
         component:MealComponent
       },
       {
-        path:'atlantic/:id/:price',
+        path:'meal/:price',
         component:MealpriceComponent
       },
       {
-        path:'pacific/:id/:price',
+        path:'meal/:price',
         component:MealpriceComponent
       }
     ]
