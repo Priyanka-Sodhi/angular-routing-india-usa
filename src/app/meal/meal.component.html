@@ -1,0 +1,12 @@
+<h3 style="color:darkviolet;text-align:center">You have booked meal with id <b>{{selected}}</b></h3>
+
+<h2>Atlantic Meals Price</h2>
+<div *ngFor="let p of atlanticMealsPrice">
+  <button (click)="bookAtlanticMealsPrice(p.price)">$ {{p.price}}</button>
+</div>
+
+<h2>Pacific Meals Price</h2>
+<div *ngFor="let p of pacificMealsPrice">
+  <button (click)="bookPacificMealsPrice(p.price)">$ {{p.price}}</button>
+</div>
+

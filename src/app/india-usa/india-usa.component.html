@@ -3,3 +3,16 @@
 <button (click)="viaAtlantic()">Via Atlantic</button>
 <hr>
 <router-outlet></router-outlet>
+
+<h4>Atlantic Meals</h4>
+<div *ngFor="let meal of atlanticMeals">
+  <span> {{meal.id}}. </span>
+  <span> {{meal.meal}} </span>
+  <button style="margin-left:5px;padding:2px;border:2px solid;border-radius:0px" (click)="bookAtlantic(meal.id)">Book</button>
+</div>
+<h4>Pacific Meals</h4>
+<div *ngFor="let meal of pacificMeals">
+  <span> {{meal.id}}. </span>
+  <span> {{meal.meal}} </span>
+  <button style="margin-left:5px;padding:2px;border:2px solid;border-radius:0px" (click)="bookPacific(meal.id)">Book</button>
+</div>

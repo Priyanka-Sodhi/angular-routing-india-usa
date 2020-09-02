@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { IndiaUsaComponent } from '../india-usa/india-usa.component';
 import { AtlanticComponent } from '../atlantic/atlantic.component';
 import { PacificComponent } from '../pacific/pacific.component';
+import { MealComponent } from '../meal/meal.component';
+import { MealpriceComponent } from '../mealprice/mealprice.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,22 @@ const routes: Routes = [
       {
         path:'pacific',
         component:PacificComponent
+      },
+      {
+        path:'atlantic/:id',
+        component:MealComponent
+      },
+      {
+        path:'pacific/:id',
+        component:MealComponent
+      },
+      {
+        path:'atlantic/:id/:price',
+        component:MealpriceComponent
+      },
+      {
+        path:'pacific/:id/:price',
+        component:MealpriceComponent
       }
     ]
   }

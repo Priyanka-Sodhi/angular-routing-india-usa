@@ -9,10 +9,12 @@ import { IndiaUsaComponent } from './india-usa/india-usa.component';
 import { AtlanticComponent } from './atlantic/atlantic.component';
 import { PacificComponent } from './pacific/pacific.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { MealComponent } from './meal/meal.component';
+import { MealpriceComponent } from './mealprice/mealprice.component';
 
 @NgModule({
   imports:[ BrowserModule, FormsModule,RouterModule,AppRoutingModule],
-  declarations: [ AppComponent, HelloComponent, IndiaUsaComponent, AtlanticComponent, PacificComponent ],
+  declarations: [ AppComponent, HelloComponent, IndiaUsaComponent, AtlanticComponent, PacificComponent, MealComponent, MealpriceComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
