@@ -4,7 +4,6 @@ import { IndiaUsaComponent } from '../india-usa/india-usa.component';
 import { AtlanticComponent } from '../atlantic/atlantic.component';
 import { PacificComponent } from '../pacific/pacific.component';
 import { MealComponent } from '../meal/meal.component';
-import { MealpriceComponent } from '../mealprice/mealprice.component';
 
 const routes: Routes = [
   {
@@ -31,14 +30,6 @@ const routes: Routes = [
       {
         path:'pacific/:id',
         component:MealComponent
-      },
-      {
-        path:'meal/:price',
-        component:MealpriceComponent
-      },
-      {
-        path:'meal/:price',
-        component:MealpriceComponent
       }
     ]
   }
